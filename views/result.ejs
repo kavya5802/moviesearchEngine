@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +13,9 @@
 </head>
 
 <body>
+    
     <div class = "wrapper">
+        <!-- logo -->
         <div class = "logo">
             <div class = "container">
                 <p>Movie<span>Corn.</span></p>
@@ -32,30 +33,29 @@
         <div class = "container">
             <div class = "result-container">
                 <div class = "result-grid" id = "result-grid">
+                    <!-- movie information here -->
                      <div class = "movie-poster">
-                        <img src = "https://th.bing.com/th/id/OIP.nWgvAK-DHUC9pV1UGWFMTAHaFk?pid=ImgDet&rs=1" alt = "movie poster">
+                        <img src = "<%=Poster%>" alt = "movie poster">
                     </div>
                     <div class = "movie-info">
-                        <h3 class = "movie-title">Guardians of the Galaxy Vol. 2</h3>
+                    
                         <ul class = "movie-misc-info">
-                            <li class = "year">Year: 2017</li>
-                            <li class = "rated">Ratings: PG-13</li>
-                            <li class = "released">Released: 05 May 2017</li>
+                            <li class = "year">Year <%YearOfRelease%></li>
+                            <li class = "rated">Rating:<%=Rating%></li>
+                            <li class = "released">Released: <%=YearOfRelease%></li>
                         </ul>
-                        <p class = "genre"><b>Genre:</b> Action, Adventure, Comedy</p>
-                        <p class = "writer"><b>Writer:</b> James Gunn, Don Abnett, Andy Lanning</p>
-                        <p class = "actors"><b>Actors: </b>Chris Pratt, Zoe Saldana, Dave Bautista</p>
-                        <p class = "plot"><b>Plot:</b> The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's ecounter with his father the ambitious celestial being Ego.</p>
-                        <p class = "language"><b>Language:</b> English</p>
-                        <p class = "awards"><b><i class = "fas fa-award"></i></b> Nominated for 1 Oscar</p>
+                        <p class = "genre"><b>Genre:</b><%=Genre%></p>
+                        <p class = "writer"><b>Director:</b><%=director%></p>
+                        <p class = "actors"><b>Actors: </b><%=Actors%></p>
+                        <p class = "plot"><b>Plot:</b> <%=Plot%></p>
+                        <p class = "language"><b>Language:</b> <%=Language%></p>
+                        
                     </div>
                 </div>
             </div>
-    
         </div>
     </div>
 </body>
-
 </html>
 
 

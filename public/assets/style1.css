@@ -1,0 +1,18 @@
+
+body{
+    background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/V7QIfdTcgikqxmxok/cinema-film-reelseamlessly-loopable-motion-background_ee5l_krce_thumbnail-1080_01.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
+.center-div{
+    padding-top: 5%;
+}
+.btn btn-sucess{
+    padding: 4em 2em;
+}
+form{
+    padding: 0.3 em;
+}

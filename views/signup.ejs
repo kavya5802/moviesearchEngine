@@ -3,10 +3,24 @@
     <head>
         <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link href= "/public/assets/style1.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <div class="text-center center-div" id="login">
+        <div class="row">
+            <div class="col" colspan="6">
+              <h1 style="color:black;">&nbsp&nbsp&nbsp&nbsp&nbsp<span class="badge bg-warning" style="color:black;">T</span>MovieCorn</h1>
+              </p></div>
+              
+       <div class="col" colspan="2">
+                     <h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="button" class="btn btn-primary" value="Home"></h1>
+                    </div>
+      <div class="col" colspan="2">
+            <h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="button" class="btn btn-warning" value="about us"></h1>
+                    </div>
+           <div class="col" colspan="2">   
+            <h1><input type="button" class="btn btn-success" value="Contact"></h1>
+            </div>
+        <div class="text-center center-div">
             <div class="container w-25 border py-5">
                 <div class="title pb-5">
                     <h2 class="font-weight-bold">REGISTER </h2>
@@ -14,7 +28,7 @@
                 <form action="/signupsubmit" method="GET">
 
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="enter your first name" name="first_name">
+                        <input type="text" class="form-control" placeholder="enter your first name" name="full_name">
             
                     </div>
                     <br><br>
@@ -24,13 +38,13 @@
                     </div>
                     <br><br>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="enter your email" name="email">
+                        <input type="text" class="form-control" placeholder="enter your email" name="email">
             
                     </div>
                     <br><br>
 
                     <div class="form-group">
-                        <input type="text" class="form-control"  placeholder="enter your phone number" name="phn">
+                        <input type="text" class="form-control"  placeholder="enter your password" name="password">
                     </div>
                     <br><br>
                 
